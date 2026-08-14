@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 10%;
+    margin: 1.5rem;
+}
+
+.one{
+    background-color: #9f608e;
+}
+
+.two{
+    background-color: #9f9160;
+}
+
+.three{
+    background-color: #609f71;
+}
+
+.four{
+    background-color: #606e9f;
+}
+
+
+.gameFlash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: black;
+}
