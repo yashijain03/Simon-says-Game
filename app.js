@@ -58,6 +58,7 @@ function btnPress(){
 
 }
 
+// clicking the buttons
 let allBtns = document.querySelectorAll(".box");
 for(btn of allBtns){
     btn.addEventListener('click',btnPress);
